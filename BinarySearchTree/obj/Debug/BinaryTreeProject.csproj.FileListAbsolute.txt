@@ -1,0 +1,6 @@
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\obj\Debug\BinaryTreeProject.csprojResolveAssemblyReference.cache
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+C:\Users\Zack\Desktop\C# (Sharp)\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.pdb

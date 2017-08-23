@@ -12,12 +12,48 @@ namespace BinarySearchTree
 
         public BinaryTree()
         {
-            Root = null;
+            Root = new Node();
+
         }
 
-        public void CraftTree()
+        public Node Add(Node Root, int value)
         {
-            Root = new Node('Z');
+
+            if (Root == null)
+            {
+                Root.Data = value;
+            }
+            else if (value < Root.Data)
+            {
+                Root.LeftChild = Add(Root.LeftChild, value);
+            }
+            else
+            {
+                Root.RightChild = Add(Root.RightChild, value);
+            }
+            return Root;
+
+        }
+        
+        public Node Search(Node node, int value)
+        {
+            if (node == null)
+            {
+                return null;
+            }
+
+            if (node.Data == value)
+            {
+                return node;
+            }
+            else if (value < node.Data)
+            {
+                return Search(node.LeftChild, value);
+            }
+            else
+            {
+                return Search(node.RightChild, value);
+            }
         }
 
     }
