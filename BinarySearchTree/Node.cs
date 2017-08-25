@@ -12,5 +12,11 @@ namespace BinarySearchTree
         public Node LeftChild;
         public Node RightChild;
 
+        public Node(int Data)
+        {
+            this.Data = Data;
+            LeftChild = null;
+            RightChild = null;
+        }
     }
 }

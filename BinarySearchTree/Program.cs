@@ -10,7 +10,8 @@ namespace BinarySearchTree
     {
         static void Main(string[] args)
         {
-            BinaryTree newTree = new BinaryTree();
+            BinarySearchTree newTree = new BinarySearchTree();
+            newTree.StartTree();
         }
     }
 }
